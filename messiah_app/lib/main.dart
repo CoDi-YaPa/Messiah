@@ -4,7 +4,7 @@ import 'package:messiah_app/themes/app_theme.dart';
 void main() {
   runApp(MaterialApp(
       home:MyApp(),
-      theme: AppTheme.dark));
+      theme: AppTheme.dark,),);
 }
 
 class MyApp extends StatelessWidget {

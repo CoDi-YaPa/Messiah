@@ -16,10 +16,30 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:main" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e00799b0-440e-4fba-96d6-300d05ca756b" name="Default Changelist" comment="" />
+    <list default="true" id="e00799b0-440e-4fba-96d6-300d05ca756b" name="Default Changelist" comment="added login and signup Page">
+      <change afterPath="$PROJECT_DIR$/messiah_app/lib/CustomWidgets/Nav_items.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/messiah_app/lib/Models/dataModel.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/messiah_app/lib/Screens/BackPage.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/messiah_app/lib/Screens/CustomSidebar.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/messiah_app/lib/Screens/FrontPage.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messiah_app/lib/loginPage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/messiah_app/lib/loginPage.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messiah_app/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/messiah_app/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messiah_app/lib/registration.dart" beforeDir="false" afterPath="$PROJECT_DIR$/messiah_app/lib/registration.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messiah_app/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/messiah_app/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messiah_app/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/messiah_app/pubspec.yaml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,6 +54,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="ProjectId" id="1ri4co2nZOGClpvgqXNSDQWIa1d" />
   <component name="ProjectViewState">
@@ -47,11 +68,14 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/messiah_app/lib" />
     <property name="settings.editor.selected.configurable" value="flutter.settings" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\KIIT\AndroidStudioProjects\Messiah\messiah_app\lib" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\KIIT\AndroidStudioProjects\Messiah\messiah_app\lib" />
     </key>
@@ -96,33 +120,37 @@
       <screen x="1920" y="0" width="1536" height="824" />
     </state>
     <state x="2418" y="202" key="#com.intellij.ide.util.TreeFileChooserDialog/0.0.1280.680/1920.0.1536.824@1920.0.1536.824" timestamp="1619447247136" />
-    <state x="2013" y="93" width="1350" height="638" key="AVDManager" timestamp="1619447082277">
+    <state x="2013" y="93" width="1350" height="638" key="AVDManager" timestamp="1619462135143">
       <screen x="1920" y="0" width="1536" height="824" />
     </state>
-    <state x="2013" y="93" width="1350" height="638" key="AVDManager/0.0.1280.680/1920.0.1536.824@1920.0.1536.824" timestamp="1619447082277" />
-    <state x="2468" y="167" key="FileChooserDialogImpl" timestamp="1619447503107">
+    <state x="2013" y="93" width="1350" height="638" key="AVDManager/0.0.1280.680/1920.0.1536.824@1920.0.1536.824" timestamp="1619462135143" />
+    <state x="2468" y="167" key="FileChooserDialogImpl" timestamp="1619458616435">
       <screen x="1920" y="0" width="1536" height="824" />
     </state>
-    <state x="2468" y="167" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1536.824@1920.0.1536.824" timestamp="1619447503107" />
-    <state width="1476" height="208" key="GridCell.Tab.0.bottom" timestamp="1619447583833">
+    <state x="2468" y="167" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1536.824@1920.0.1536.824" timestamp="1619458616435" />
+    <state width="1488" height="207" key="GridCell.Tab.0.bottom" timestamp="1619462015722">
       <screen x="1920" y="0" width="1536" height="824" />
     </state>
-    <state width="1476" height="208" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1536.824@1920.0.1536.824" timestamp="1619447583833" />
-    <state width="1476" height="208" key="GridCell.Tab.0.center" timestamp="1619447583832">
+    <state width="1488" height="207" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1536.824@1920.0.1536.824" timestamp="1619462015722" />
+    <state width="1488" height="207" key="GridCell.Tab.0.center" timestamp="1619462015721">
       <screen x="1920" y="0" width="1536" height="824" />
     </state>
-    <state width="1476" height="208" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1536.824@1920.0.1536.824" timestamp="1619447583832" />
-    <state width="1476" height="208" key="GridCell.Tab.0.left" timestamp="1619447583831">
+    <state width="1488" height="207" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1536.824@1920.0.1536.824" timestamp="1619462015721" />
+    <state width="1488" height="207" key="GridCell.Tab.0.left" timestamp="1619462015721">
       <screen x="1920" y="0" width="1536" height="824" />
     </state>
-    <state width="1476" height="208" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1536.824@1920.0.1536.824" timestamp="1619447583831" />
-    <state width="1476" height="208" key="GridCell.Tab.0.right" timestamp="1619447583832">
+    <state width="1488" height="207" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1536.824@1920.0.1536.824" timestamp="1619462015721" />
+    <state width="1488" height="207" key="GridCell.Tab.0.right" timestamp="1619462015722">
       <screen x="1920" y="0" width="1536" height="824" />
     </state>
-    <state width="1476" height="208" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1536.824@1920.0.1536.824" timestamp="1619447583832" />
-    <state x="2197" y="57" key="SettingsEditor" timestamp="1619445817750">
+    <state width="1488" height="207" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1536.824@1920.0.1536.824" timestamp="1619462015722" />
+    <state x="2197" y="57" key="SettingsEditor" timestamp="1619450078522">
       <screen x="1920" y="0" width="1536" height="824" />
     </state>
-    <state x="2197" y="57" key="SettingsEditor/0.0.1280.680/1920.0.1536.824@1920.0.1536.824" timestamp="1619445817750" />
+    <state x="2197" y="57" key="SettingsEditor/0.0.1280.680/1920.0.1536.824@1920.0.1536.824" timestamp="1619450078522" />
+    <state x="2498" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1619454799786">
+      <screen x="1920" y="0" width="1536" height="824" />
+    </state>
+    <state x="2498" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680/1920.0.1536.824@1920.0.1536.824" timestamp="1619454799786" />
   </component>
 </project>

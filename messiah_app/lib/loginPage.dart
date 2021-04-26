@@ -1,11 +1,8 @@
 import 'package:flutter/material.dart';
 import 'registration.dart';
 import 'themes/app_color.dart';
-import 'themes/app_color.dart';
-import 'themes/app_color.dart';
-import 'themes/app_theme.dart';
-import 'themes/dark_theme.dart';
-import 'themes/light_theme.dart';
+import 'package:messiah_app/Screens/CustomSidebar.dart';
+
 
 class LoginPage extends StatefulWidget {
   @override
@@ -80,7 +77,14 @@ class _LoginPageState extends State<LoginPage> {
               Column(
                 children: [
                   MaterialButton(
-                    onPressed: () => {},
+                    onPressed: () => {
+                    Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                    builder: (context) => CustomSidebar()),
+                    )
+
+                    },
                     elevation: 100,
                     padding: EdgeInsets.all(18),
                     shape: RoundedRectangleBorder(

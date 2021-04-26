@@ -48,7 +48,7 @@ class _SecondRouteState extends State<SecondRoute> {
                               child: TextField(
                                 decoration: InputDecoration(
                                   border: InputBorder.none,
-                                  hintText: " E-mail",
+                                  hintText: "E-mail",
 
                                 ),
                               ),
