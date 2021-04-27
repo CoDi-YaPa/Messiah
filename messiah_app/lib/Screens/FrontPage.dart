@@ -1,6 +1,7 @@
 import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
 import 'package:messiah_app/Models/dataModel.dart';
+import 'package:messiah_app/themes/app_color.dart';
 
 class FrontPage extends StatefulWidget {
   @override
@@ -22,7 +23,7 @@ class _FrontPageState extends State<FrontPage> {
       curve: Curves.easeIn,
       decoration: BoxDecoration(
         borderRadius: BorderRadius.all(Radius.circular(borderRadius)),
-        color: Colors.white,
+        color:AppColor.textFieldColorDark ,
       ),
       duration: Duration(milliseconds: 300),
       padding: EdgeInsets.symmetric(horizontal: 10),
@@ -50,7 +51,7 @@ class _FrontPageState extends State<FrontPage> {
                         icon: Icon(
                           Icons.menu,
                           size: 30,
-                          color: Colors.black,
+                          color: AppColor.textColorDark,
                         ),
                         onPressed: () {
                           setState(() {
@@ -62,18 +63,16 @@ class _FrontPageState extends State<FrontPage> {
                           });
                         },
                       ),
-                Text(
-                  "AndroidAuthority",
-                  style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold,color: Colors.black),
-                ),
-                IconButton(
-                  onPressed: () {},
-                  icon: Icon(
-                    Icons.search,
-                    size: 30,
-                    color: Colors.black,
+                Center(
+                  child: Text(
+                    "Messiah",
+                    style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold,color: AppColor.textColorDark),
                   ),
+                ),
+                SizedBox(
+                  width: 30,
                 )
+
               ],
             ),
             Expanded(
@@ -124,10 +123,12 @@ class _FrontPageState extends State<FrontPage> {
                         color: Colors.grey,
                       )
                     ],
+
                   );
                 },
               ),
             )
+
           ],
         ),
       ),

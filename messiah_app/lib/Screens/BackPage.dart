@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:messiah_app/CustomWidgets/Nav_items.dart';
+import 'package:messiah_app/themes/app_color.dart';
 
 class BackPage extends StatefulWidget {
   @override
@@ -10,7 +11,7 @@ class _BackPageState extends State<BackPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.blueGrey,
+      backgroundColor: AppColor.bodyColorDark,
       body: Column(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -45,7 +46,7 @@ class _BackPageState extends State<BackPage> {
               children: <Widget>[
                 Container(
                   decoration: BoxDecoration(
-                    color: Colors.orange,
+                    color: AppColor.buttonBackgroundColorDark,
                     borderRadius: BorderRadius.circular(10.0)
                   ),
                   child: MenuItem(
