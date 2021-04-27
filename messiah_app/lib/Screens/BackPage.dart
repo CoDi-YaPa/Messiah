@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:messiah_app/CustomWidgets/Nav_items.dart';
 import 'package:messiah_app/themes/app_color.dart';
+import 'DevelopersPage.dart';
 
 class BackPage extends StatefulWidget {
   @override
@@ -57,6 +58,12 @@ class _BackPageState extends State<BackPage> {
                   ),
                 ),
                 GestureDetector(
+                  onTap: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => DevelopersPage()),
+                    );
+                  },
                   child: MenuItem(
                     iconData: Icons.group_rounded,
                     menuItem: "Developers",
