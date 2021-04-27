@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -26,15 +31,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e00799b0-440e-4fba-96d6-300d05ca756b" name="Default Changelist" comment="added rough structure  of app drawer will update it later">
+      <change afterPath="$PROJECT_DIR$/messiah_app/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/messiah_app/.gradle/6.1.1/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/messiah_app/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/messiah_app/.gradle/6.1.1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/messiah_app/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/messiah_app/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/messiah_app/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/messiah_app/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/messiah_app/local.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Messiah.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Messiah.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/markdown-navigator-enh.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/markdown-navigator.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/messiah_app/lib/Screens/BackPage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/messiah_app/lib/Screens/BackPage.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/messiah_app/lib/Screens/FrontPage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/messiah_app/lib/Screens/FrontPage.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messiah_app/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/messiah_app/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messiah_app/lib/registration.dart" beforeDir="false" afterPath="$PROJECT_DIR$/messiah_app/lib/registration.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[4ef47e23]" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -63,10 +83,10 @@
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\KIIT\AndroidStudioProjects\Messiah\messiah_app\lib" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\KIIT\AndroidStudioProjects\Messiah\messiah_app\lib" />
     </key>
   </component>
@@ -94,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619462717613</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Revert &quot;launch screen for android modified&quot;&#10;&#10;This reverts commit 6dca004e">
+      <created>1619511100196</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1619511100196</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -123,13 +150,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added rough structure  of app drawer will update it later" />
-    <option name="LAST_COMMIT_MESSAGE" value="added rough structure  of app drawer will update it later" />
+    <MESSAGE value="Revert &quot;launch screen for android modified&quot;&#10;&#10;This reverts commit 6dca004e" />
+    <option name="LAST_COMMIT_MESSAGE" value="Revert &quot;launch screen for android modified&quot;&#10;&#10;This reverts commit 6dca004e" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2143" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1619447253166">
       <screen x="1920" y="0" width="1536" height="824" />
     </state>
     <state x="2143" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680/1920.0.1536.824@1920.0.1536.824" timestamp="1619447253166" />
+    <state x="395" y="158" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1619510993935">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="395" y="158" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.720@0.0.1280.720" timestamp="1619510993935" />
     <state x="2418" y="202" key="#com.intellij.ide.util.TreeFileChooserDialog" timestamp="1619447247136">
       <screen x="1920" y="0" width="1536" height="824" />
     </state>
@@ -138,34 +170,43 @@
       <screen x="1920" y="0" width="1536" height="824" />
     </state>
     <state x="2013" y="93" width="1350" height="638" key="AVDManager/0.0.1280.680/1920.0.1536.824@1920.0.1536.824" timestamp="1619495505795" />
+    <state x="251" y="0" key="CommitChangelistDialog2" timestamp="1619511099600">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="251" y="0" key="CommitChangelistDialog2/0.0.1280.720@0.0.1280.720" timestamp="1619511099600" />
     <state x="2468" y="167" key="FileChooserDialogImpl" timestamp="1619458616435">
       <screen x="1920" y="0" width="1536" height="824" />
     </state>
     <state x="2468" y="167" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1536.824@1920.0.1536.824" timestamp="1619458616435" />
-    <state width="1488" height="207" key="GridCell.Tab.0.bottom" timestamp="1619463597174">
-      <screen x="1920" y="0" width="1536" height="824" />
+    <state width="1236" height="166" key="GridCell.Tab.0.bottom" timestamp="1619535002313">
+      <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state width="1488" height="207" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1536.824@1920.0.1536.824" timestamp="1619463597174" />
-    <state width="1488" height="207" key="GridCell.Tab.0.center" timestamp="1619463597173">
-      <screen x="1920" y="0" width="1536" height="824" />
+    <state width="1236" height="166" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1619535002313" />
+    <state width="1236" height="166" key="GridCell.Tab.0.center" timestamp="1619535002313">
+      <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state width="1488" height="207" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1536.824@1920.0.1536.824" timestamp="1619463597173" />
-    <state width="1488" height="207" key="GridCell.Tab.0.left" timestamp="1619463597173">
-      <screen x="1920" y="0" width="1536" height="824" />
+    <state width="1236" height="166" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1619535002313" />
+    <state width="1236" height="166" key="GridCell.Tab.0.left" timestamp="1619535002312">
+      <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state width="1488" height="207" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1536.824@1920.0.1536.824" timestamp="1619463597173" />
-    <state width="1488" height="207" key="GridCell.Tab.0.right" timestamp="1619463597173">
-      <screen x="1920" y="0" width="1536" height="824" />
+    <state width="1236" height="166" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1619535002312" />
+    <state width="1236" height="166" key="GridCell.Tab.0.right" timestamp="1619535002313">
+      <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state width="1488" height="207" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1536.824@1920.0.1536.824" timestamp="1619463597173" />
+    <state width="1236" height="166" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1619535002313" />
     <state x="2197" y="57" key="SettingsEditor" timestamp="1619450078522">
       <screen x="1920" y="0" width="1536" height="824" />
     </state>
     <state x="2197" y="57" key="SettingsEditor/0.0.1280.680/1920.0.1536.824@1920.0.1536.824" timestamp="1619450078522" />
-    <state x="2281" y="145" key="Vcs.Push.Dialog.v2" timestamp="1619462743765">
-      <screen x="1920" y="0" width="1536" height="824" />
+    <state x="301" y="127" key="Vcs.Push.Dialog.v2" timestamp="1619511139258">
+      <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="2281" y="145" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1536.824@1920.0.1536.824" timestamp="1619462743765" />
+    <state x="301" y="127" key="Vcs.Push.Dialog.v2/0.0.1280.720@0.0.1280.720" timestamp="1619511139258" />
     <state x="2498" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1619495280889">
       <screen x="1920" y="0" width="1536" height="824" />
     </state>
