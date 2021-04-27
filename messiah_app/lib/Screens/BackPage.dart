@@ -46,9 +46,8 @@ class _BackPageState extends State<BackPage> {
               children: <Widget>[
                 Container(
                   decoration: BoxDecoration(
-                    color: AppColor.buttonBackgroundColorDark,
-                    borderRadius: BorderRadius.circular(10.0)
-                  ),
+                      color: AppColor.buttonBackgroundColorDark,
+                      borderRadius: BorderRadius.circular(10.0)),
                   child: MenuItem(
                     iconData: Icons.home,
                     menuItem: "Home",
@@ -59,20 +58,8 @@ class _BackPageState extends State<BackPage> {
                   menuItem: "Profile",
                 ),
                 MenuItem(
-                  iconData: Icons.history,
-                  menuItem: "History",
-                ),
-                MenuItem(
-                  iconData: Icons.mode_edit,
-                  menuItem: "Author",
-                ),
-                MenuItem(
-                  iconData: Icons.notifications,
-                  menuItem: "Notifications",
-                ),
-                MenuItem(
-                  iconData: Icons.settings,
-                  menuItem: "Settings",
+                  iconData: Icons.group_rounded,
+                  menuItem: "Developers",
                 ),
               ],
             ),
@@ -81,7 +68,7 @@ class _BackPageState extends State<BackPage> {
             margin: EdgeInsets.symmetric(horizontal: 10),
             width: MediaQuery.of(context).size.width * 0.6,
             child: MenuItem(
-              iconData: Icons.power_settings_new,
+              iconData: Icons.logout,
               menuItem: "Logout",
             ),
           ),

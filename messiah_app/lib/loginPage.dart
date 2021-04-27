@@ -3,7 +3,6 @@ import 'registration.dart';
 import 'themes/app_color.dart';
 import 'package:messiah_app/Screens/CustomSidebar.dart';
 
-
 class LoginPage extends StatefulWidget {
   @override
   _LoginPageState createState() => _LoginPageState();
@@ -29,18 +28,23 @@ class _LoginPageState extends State<LoginPage> {
             crossAxisAlignment: CrossAxisAlignment.start,
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
-              Text("Hello, \nWelcome Back",
-                  style: Theme.of(context).textTheme.headline1.copyWith(
-                        fontSize: size.width * 0.1,
-                      )),
+              Text(
+                "Hello, \nWelcome Back",
+                style: Theme.of(context).textTheme.headline1.copyWith(
+                      fontSize: size.width * 0.1,
+                    ),
+              ),
               Column(
                 crossAxisAlignment: CrossAxisAlignment.end,
                 children: [
                   Container(
                     padding: EdgeInsets.symmetric(horizontal: 20, vertical: 5),
                     decoration: BoxDecoration(
-                        color: AppColor.textFieldColorDark,
-                        borderRadius: BorderRadius.all(Radius.circular(20))),
+                      color: AppColor.textFieldColorDark,
+                      borderRadius: BorderRadius.all(
+                        Radius.circular(20),
+                      ),
+                    ),
                     child: TextField(
                       decoration: InputDecoration(
                         border: InputBorder.none,
@@ -78,12 +82,11 @@ class _LoginPageState extends State<LoginPage> {
                 children: [
                   MaterialButton(
                     onPressed: () => {
-                    Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                    builder: (context) => CustomSidebar()),
-                    )
-
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => CustomSidebar()),
+                      )
                     },
                     elevation: 100,
                     padding: EdgeInsets.all(18),
