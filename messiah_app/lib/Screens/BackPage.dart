@@ -44,22 +44,23 @@ class _BackPageState extends State<BackPage> {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.start,
               children: <Widget>[
-                Container(
-                  decoration: BoxDecoration(
-                      color: AppColor.buttonBackgroundColorDark,
-                      borderRadius: BorderRadius.circular(10.0)),
+                GestureDetector(
                   child: MenuItem(
                     iconData: Icons.home,
                     menuItem: "Home",
                   ),
                 ),
-                MenuItem(
-                  iconData: Icons.person,
-                  menuItem: "Profile",
+                GestureDetector(
+                  child: MenuItem(
+                    iconData: Icons.person,
+                    menuItem: "Profile",
+                  ),
                 ),
-                MenuItem(
-                  iconData: Icons.group_rounded,
-                  menuItem: "Developers",
+                GestureDetector(
+                  child: MenuItem(
+                    iconData: Icons.group_rounded,
+                    menuItem: "Developers",
+                  ),
                 ),
               ],
             ),
@@ -67,9 +68,11 @@ class _BackPageState extends State<BackPage> {
           Container(
             margin: EdgeInsets.symmetric(horizontal: 10),
             width: MediaQuery.of(context).size.width * 0.6,
-            child: MenuItem(
-              iconData: Icons.logout,
-              menuItem: "Logout",
+            child: GestureDetector(
+              child: MenuItem(
+                iconData: Icons.logout,
+                menuItem: "Logout",
+              ),
             ),
           ),
         ],
