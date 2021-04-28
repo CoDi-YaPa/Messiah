@@ -13,6 +13,17 @@ class ProfilePage extends StatefulWidget {
 class _ProfilePageState extends State<ProfilePage> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      appBar: AppBar(
+        backgroundColor: Color(0xFF1D2740),
+        title: Text("USER'S PROFILE"),
+        centerTitle: true,
+      ),
+      body: SafeArea(
+        child: Center(
+          child: Container(),
+        ),
+      ),
+    );
   }
 }
