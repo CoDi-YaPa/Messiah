@@ -21,7 +21,13 @@ class _ProfilePageState extends State<ProfilePage> {
       ),
       body: SafeArea(
         child: Center(
-          child: Container(),
+          child: Container(
+            child: Column(
+              children: [
+                CircleAvatar(),
+              ],
+            ),
+          ),
         ),
       ),
     );
