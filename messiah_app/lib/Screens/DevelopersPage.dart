@@ -17,43 +17,61 @@ class _DevelopersPageState extends State<DevelopersPage> {
     final double fontScale = MediaQuery.of(context).textScaleFactor;
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Color(0xFF1D2740),
         centerTitle: true,
         title: Text("Developer's Page"),
       ),
       body: SafeArea(
-        child: Column(
-          children: [
-            Container(
-              child: Column(
-                children: [
-                  CircleAvatar(),
-                  Text('Soumik Mukherjee'),
-                  Text("Soumik's LinkedIn Profile"),
-                  Text("Soumik's GitHub Profile"),
-                ],
+        child: Center(
+          child: Column(
+            children: [
+              SizedBox(
+                height: 30.0,
               ),
-            ),
-            Container(
-              child: Column(
-                children: [
-                  CircleAvatar(),
-                  Text('Ritik Shah'),
-                  Text("Ritik's LinkedIn Profile"),
-                  Text("Ritik's GitHub Profile"),
-                ],
+              Container(
+                child: Expanded(
+                  child: Column(
+                    children: [
+                      CircleAvatar(
+                        backgroundImage: AssetImage('images/sm.jpg'),
+                      ),
+                      Text('Soumik Mukherjee'),
+                      Text("Soumik's LinkedIn Profile"),
+                      Text("Soumik's GitHub Profile"),
+                    ],
+                  ),
+                ),
               ),
-            ),
-            Container(
-              child: Column(
-                children: [
-                  CircleAvatar(),
-                  Text('Jyotirmoy Bandopadhyay'),
-                  Text("Jyotirmoy's LinkedIn Profile"),
-                  Text("Jyotirmoy's GitHub Profile"),
-                ],
+              Container(
+                child: Expanded(
+                  child: Column(
+                    children: [
+                      CircleAvatar(
+                        backgroundImage: AssetImage('images/rs.jpg'),
+                      ),
+                      Text('Ritik Shah'),
+                      Text("Ritik's LinkedIn Profile"),
+                      Text("Ritik's GitHub Profile"),
+                    ],
+                  ),
+                ),
               ),
-            ),
-          ],
+              Container(
+                child: Expanded(
+                  child: Column(
+                    children: [
+                      CircleAvatar(
+                        backgroundImage: AssetImage('images/jb.jpg'),
+                      ),
+                      Text('Jyotirmoy Bandopadhyay'),
+                      Text("Jyotirmoy's LinkedIn Profile"),
+                      Text("Jyotirmoy's GitHub Profile"),
+                    ],
+                  ),
+                ),
+              ),
+            ],
+          ),
         ),
       ),
     );
