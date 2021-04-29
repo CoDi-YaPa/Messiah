@@ -1,6 +1,7 @@
 import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:messiah_app/CustomWidgets/donarContainer.dart';
 
 import 'package:messiah_app/themes/app_color.dart';
 
@@ -119,46 +120,28 @@ class _FrontPageState extends State<FrontPage> {
               ],
             ),
 
-            Container(
-              height: 130,
-              margin: EdgeInsets.all(10),
-              decoration: BoxDecoration(
-                borderRadius:BorderRadius.circular(20),
-                color: AppColor.bodyColorDark,
-              ),
 
-              child: Row(
+
+
+            Expanded(child: Container(
+              child: ListView(
                 children: [
-                  SizedBox(
-                    width: 10,
-                  ),
 
-                  CircleAvatar(radius: 60,),
-                  SizedBox(width: 20,),
-                  Column(
-                    children: [
-                      SizedBox(height: 5,),
-                      Text('Ritik Shah',style: TextStyle(
-                        fontSize: 30,
-                          fontWeight: FontWeight.bold
-                      ),),
-                      Text('O+',style: TextStyle(
-                          fontSize: 30,
-                        fontWeight: FontWeight.bold
-                      )),
-                      Text('Indore'),
-                      Text('9805278485'),
-                      Text('vulture1302@gmail.com'),
-
-                    ],
-
-                  )
+                  DonarConatinerBlood(name: 'Ritik Shah',bloodGroup: 'O+',location: 'Indore',phoneNumber:'9805278485',email: 'vulture1302@gmail.com',),
+                  DonarConatinerBlood(),
+                  DonarConatinerBlood(),
+                  DonarConatinerBlood(),
+                  DonarConatinerBlood(),
+                  DonarConatinerBlood(name: 'Ritik Shah',bloodGroup: 'O+',location: 'Indore',phoneNumber:'9805278485',email: 'vulture1302@gmail.com',),
+                  DonarConatinerBlood(),
+                  DonarConatinerBlood(),
+                  DonarConatinerBlood(),
+                  DonarConatinerBlood(),
 
                 ],
+
               ),
 
-            ),
-            Expanded(child: Container(
 
             )),
 

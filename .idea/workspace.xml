@@ -25,13 +25,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e00799b0-440e-4fba-96d6-300d05ca756b" name="Default Changelist" comment="added rough bottom navigation bar will implement page change later">
-      <change afterPath="$PROJECT_DIR$/messiah_app/lib/CustomWidgets/donarContainer.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_27-04-2021_20_47__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_27-04-2021_20_47__Default_Changelist_.xml" afterDir="false" />
+    <list default="true" id="e00799b0-440e-4fba-96d6-300d05ca756b" name="Default Changelist" comment="made a new custom widget for showing donors">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/messiah_app/lib/Models/dataModel.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/messiah_app/lib/CustomWidgets/donarContainer.dart" beforeDir="false" afterPath="$PROJECT_DIR$/messiah_app/lib/CustomWidgets/donarContainer.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/messiah_app/lib/Screens/FrontPage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/messiah_app/lib/Screens/FrontPage.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,6 +56,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="flutter.settings" />
@@ -111,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619536589763</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="made a new custom widget for showing donors">
+      <created>1619680086139</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1619680086139</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -142,7 +146,8 @@
     <MESSAGE value="added rough structure  of app drawer will update it later" />
     <MESSAGE value="added Color changes to app Drawer" />
     <MESSAGE value="added rough bottom navigation bar will implement page change later" />
-    <option name="LAST_COMMIT_MESSAGE" value="added rough bottom navigation bar will implement page change later" />
+    <MESSAGE value="made a new custom widget for showing donors" />
+    <option name="LAST_COMMIT_MESSAGE" value="made a new custom widget for showing donors" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2143" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1619447253166">
@@ -157,10 +162,10 @@
       <screen x="1920" y="0" width="1536" height="824" />
     </state>
     <state x="2419" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680/1920.0.1536.824@1920.0.1536.824" timestamp="1619675500448" />
-    <state x="1983" y="110" width="1350" height="638" key="AVDManager" timestamp="1619675114933">
+    <state x="1983" y="110" width="1350" height="638" key="AVDManager" timestamp="1619680279205">
       <screen x="1920" y="0" width="1536" height="824" />
     </state>
-    <state x="1983" y="110" width="1350" height="638" key="AVDManager/0.0.1280.680/1920.0.1536.824@1920.0.1536.824" timestamp="1619675114933" />
+    <state x="1983" y="110" width="1350" height="638" key="AVDManager/0.0.1280.680/1920.0.1536.824@1920.0.1536.824" timestamp="1619680279205" />
     <state x="2013" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1619502975395">
       <screen x="1920" y="0" width="1536" height="824" />
     </state>
@@ -169,22 +174,22 @@
       <screen x="1920" y="0" width="1536" height="824" />
     </state>
     <state x="2468" y="167" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1536.824@1920.0.1536.824" timestamp="1619625463508" />
-    <state width="1476" height="206" key="GridCell.Tab.0.bottom" timestamp="1619675105292">
+    <state width="1488" height="206" key="GridCell.Tab.0.bottom" timestamp="1619681288756">
       <screen x="1920" y="0" width="1536" height="824" />
     </state>
-    <state width="1476" height="206" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1536.824@1920.0.1536.824" timestamp="1619675105292" />
-    <state width="1476" height="206" key="GridCell.Tab.0.center" timestamp="1619675105292">
+    <state width="1488" height="206" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1536.824@1920.0.1536.824" timestamp="1619681288756" />
+    <state width="1488" height="206" key="GridCell.Tab.0.center" timestamp="1619681288756">
       <screen x="1920" y="0" width="1536" height="824" />
     </state>
-    <state width="1476" height="206" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1536.824@1920.0.1536.824" timestamp="1619675105292" />
-    <state width="1476" height="206" key="GridCell.Tab.0.left" timestamp="1619675105291">
+    <state width="1488" height="206" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1536.824@1920.0.1536.824" timestamp="1619681288756" />
+    <state width="1488" height="206" key="GridCell.Tab.0.left" timestamp="1619681288756">
       <screen x="1920" y="0" width="1536" height="824" />
     </state>
-    <state width="1476" height="206" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1536.824@1920.0.1536.824" timestamp="1619675105291" />
-    <state width="1476" height="206" key="GridCell.Tab.0.right" timestamp="1619675105292">
+    <state width="1488" height="206" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1536.824@1920.0.1536.824" timestamp="1619681288756" />
+    <state width="1488" height="206" key="GridCell.Tab.0.right" timestamp="1619681288756">
       <screen x="1920" y="0" width="1536" height="824" />
     </state>
-    <state width="1476" height="206" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1536.824@1920.0.1536.824" timestamp="1619675105292" />
+    <state width="1488" height="206" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1536.824@1920.0.1536.824" timestamp="1619681288756" />
     <state x="2169" y="122" key="MergeDialog" timestamp="1619674799135">
       <screen x="1920" y="0" width="1536" height="824" />
     </state>
@@ -197,10 +202,10 @@
       <screen x="1920" y="0" width="1536" height="824" />
     </state>
     <state width="498" height="447" key="SwitcherDM/0.0.1280.680/1920.0.1536.824@1920.0.1536.824" timestamp="1619537733582" />
-    <state x="2281" y="145" key="Vcs.Push.Dialog.v2" timestamp="1619536597510">
+    <state x="2281" y="145" key="Vcs.Push.Dialog.v2" timestamp="1619680097621">
       <screen x="1920" y="0" width="1536" height="824" />
     </state>
-    <state x="2281" y="145" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1536.824@1920.0.1536.824" timestamp="1619536597510" />
+    <state x="2281" y="145" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1536.824@1920.0.1536.824" timestamp="1619680097621" />
     <state x="2498" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1619674790314">
       <screen x="1920" y="0" width="1536" height="824" />
     </state>
