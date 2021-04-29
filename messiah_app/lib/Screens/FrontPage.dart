@@ -1,7 +1,7 @@
 import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:messiah_app/Models/dataModel.dart';
+
 import 'package:messiah_app/themes/app_color.dart';
 
 
@@ -57,13 +57,16 @@ class _FrontPageState extends State<FrontPage> {
   @override
   Widget build(BuildContext context) {
     return AnimatedContainer(
+
       transform: Matrix4.translationValues(xOffset, yOffset, 0)
         ..scale(scaleFactor),
       curve: Curves.easeIn,
       decoration: BoxDecoration(
+
         borderRadius: BorderRadius.all(Radius.circular(borderRadius)),
         color:AppColor.textFieldColorDark ,
       ),
+
       duration: Duration(milliseconds: 300),
       padding: EdgeInsets.symmetric(horizontal: 10),
       child: Padding(
@@ -115,59 +118,51 @@ class _FrontPageState extends State<FrontPage> {
 
               ],
             ),
-            Expanded(
-              child: ListView.builder(
-                shrinkWrap: true,
-                itemCount: newsImages.length,
-                itemBuilder: (context, int index) {
-                  return Column(
-                    children: <Widget>[
-                      Row(
-                        children: <Widget>[
-                          Container(
-                            width: 75,
-                            height: 75,
-                            decoration: BoxDecoration(
-                                image: DecorationImage(
-                                    image: NetworkImage(newsImages[index]),
-                                    fit: BoxFit.cover)),
-                          ),
-                          SizedBox(
-                            width: 20,
-                          ),
-                          Expanded(
-                            child: Column(
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              children: <Widget>[
-                                AutoSizeText(
-                                  newsTitle[index],
-                                  maxLines: 2,
-                                  style: TextStyle(
-                                      fontWeight: FontWeight.bold,
-                                      fontSize: 16),
-                                  textAlign: TextAlign.left,
-                                ),
-                                AutoSizeText(
-                                  newsDetail[index],
-                                  maxLines: 2,
-                                  style: TextStyle(fontSize: 14),
-                                  textAlign: TextAlign.left,
-                                ),
-                              ],
-                            ),
-                          )
-                        ],
-                      ),
-                      Divider(
-                        thickness: 1,
-                        color: Colors.grey,
-                      )
+
+            Container(
+              height: 130,
+              margin: EdgeInsets.all(10),
+              decoration: BoxDecoration(
+                borderRadius:BorderRadius.circular(20),
+                color: AppColor.bodyColorDark,
+              ),
+
+              child: Row(
+                children: [
+                  SizedBox(
+                    width: 10,
+                  ),
+
+                  CircleAvatar(radius: 60,),
+                  SizedBox(width: 20,),
+                  Column(
+                    children: [
+                      SizedBox(height: 5,),
+                      Text('Ritik Shah',style: TextStyle(
+                        fontSize: 30,
+                          fontWeight: FontWeight.bold
+                      ),),
+                      Text('O+',style: TextStyle(
+                          fontSize: 30,
+                        fontWeight: FontWeight.bold
+                      )),
+                      Text('Indore'),
+                      Text('9805278485'),
+                      Text('vulture1302@gmail.com'),
+
                     ],
 
-                  );
-                },
+                  )
+
+                ],
               ),
+
             ),
+            Expanded(child: Container(
+
+            )),
+
+
             BottomNavigationBar(
 
               items:const <BottomNavigationBarItem>[
@@ -192,7 +187,8 @@ class _FrontPageState extends State<FrontPage> {
               selectedItemColor: AppColor.buttonBackgroundColorDark,
               onTap: _onItemTapped,
             backgroundColor:AppColor.textFieldColorDark ,
-            elevation: 0,)
+            elevation: 0,
+            )
 
           ],
         ),
