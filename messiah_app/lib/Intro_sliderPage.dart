@@ -19,21 +19,24 @@ class _IntroSliderPageState extends State<IntroSliderPage> {
     super.initState();
     slides.add(
       new Slide(
-          title: "Hello Food!",
-          description: "Good Food!!",
-          pathImage: "assets/images/1.png"),
+          title: "...Blood...",
+          description:
+              "Now you have an awesome platform to look for blood donors around you. You can voluntarily become a donor and register yourself here!",
+          pathImage: "images/1.png"),
     );
     slides.add(
       new Slide(
-          title: "Hello Movie!",
-          description: "Nice Movie !!",
-          pathImage: "assets/images/2.png"),
+          title: "...Plasma...",
+          description:
+              "We all know how important this plasma becomes when he/she is in the final stages of NCov-19 or any other chronic illnesses. So, similar to getting a blood donor, you can also look for a plasma donor here!",
+          pathImage: "images/2.png"),
     );
     slides.add(
       new Slide(
-          title: "Hello Place!",
-          description: "Good Place!!",
-          pathImage: "assets/images/3.png"),
+          title: "...Oxygen...",
+          description:
+              "In the recent scenario of the Covid-19 pandemic, getting oxygen cylinders timely is another major concern. There are certain agents/suppliers about whom the common people are unaware of and they remain deprived of the oxygen cylinders. So here we are with yet another solution!",
+          pathImage: "images/3.png"),
     );
   }
 
@@ -67,7 +70,7 @@ class _IntroSliderPageState extends State<IntroSliderPage> {
                   margin: EdgeInsets.only(top: 20.0),
                   child: Text(
                     currentSlide.title,
-                    style: TextStyle(color: Colors.white, fontSize: 25),
+                    style: TextStyle(color: Colors.white, fontSize: 30),
                   ),
                 ),
                 Container(
@@ -77,8 +80,8 @@ class _IntroSliderPageState extends State<IntroSliderPage> {
                   child: Text(
                     currentSlide.description,
                     style: TextStyle(
-                        color: Colors.white, fontSize: 14, height: 1.5),
-                    maxLines: 5,
+                        color: Colors.white, fontSize: 16, height: 1.5),
+                    maxLines: 9,
                     textAlign: TextAlign.center,
                     overflow: TextOverflow.ellipsis,
                   ),
@@ -100,19 +103,23 @@ class _IntroSliderPageState extends State<IntroSliderPage> {
   @override
   Widget build(BuildContext context) {
     return IntroSlider(
-      backgroundColorAllSlides: Colors.green[700],
-      renderSkipBtn: Text("Skip"),
+      backgroundColorAllSlides: Color(0xFF0B1328),
+      renderSkipBtn: Text(
+        "Skip",
+        style: TextStyle(color: Colors.white),
+      ),
       renderNextBtn: Text(
         "Next",
-        style: TextStyle(color: Colors.green[700]),
+        style: TextStyle(color: Colors.white),
       ),
       renderDoneBtn: Text(
         "Done",
-        style: TextStyle(color: Colors.green[700]),
+        style: TextStyle(color: Colors.white),
       ),
-      colorDoneBtn: Colors.white,
+      colorDoneBtn: Colors.blue,
       colorActiveDot: Colors.white,
-      sizeDot: 8.0,
+      colorDot: Colors.white30,
+      sizeDot: 10.0,
       typeDotAnimation: dotSliderAnimation.SIZE_TRANSITION,
       listCustomTabs: this.renderListCustomTabs(),
       scrollPhysics: BouncingScrollPhysics(),
