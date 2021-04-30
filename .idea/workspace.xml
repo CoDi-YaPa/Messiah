@@ -30,14 +30,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e00799b0-440e-4fba-96d6-300d05ca756b" name="Default Changelist" comment="done with the images of the slider">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
+    <list default="true" id="e00799b0-440e-4fba-96d6-300d05ca756b" name="Default Changelist" comment="added the functionality of shared preferences so that the intro screen comes only once after the installation">
+      <change afterPath="$PROJECT_DIR$/messiah_app/images/icon_trans.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/messiah_app/lib/Intro_sliderPage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/messiah_app/lib/Intro_sliderPage.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/messiah_app/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/messiah_app/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/messiah_app/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/messiah_app/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/messiah_app/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/messiah_app/pubspec.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/messiah_app/test/widget_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/messiah_app/test/widget_test.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -213,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619796888465</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="added the functionality of shared preferences so that the intro screen comes only once after the installation">
+      <created>1619797733731</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1619797733731</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -258,7 +261,8 @@
     <MESSAGE value="done with the text and the theme part of the slider" />
     <MESSAGE value="slider image added" />
     <MESSAGE value="done with the images of the slider" />
-    <option name="LAST_COMMIT_MESSAGE" value="done with the images of the slider" />
+    <MESSAGE value="added the functionality of shared preferences so that the intro screen comes only once after the installation" />
+    <option name="LAST_COMMIT_MESSAGE" value="added the functionality of shared preferences so that the intro screen comes only once after the installation" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2143" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1619447253166">
@@ -282,31 +286,31 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="251" y="0" key="CommitChangelistDialog2/0.0.1280.720@0.0.1280.720" timestamp="1619511099600" />
-    <state x="457" y="146" key="FileChooserDialogImpl" timestamp="1619762861036">
+    <state x="457" y="146" key="FileChooserDialogImpl" timestamp="1619801605081">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="2468" y="167" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1536.824@1920.0.1536.824" timestamp="1619458616435" />
-    <state x="457" y="146" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1619762861036" />
-    <state width="970" height="169" key="GridCell.Tab.0.bottom" timestamp="1619797098700">
+    <state x="457" y="146" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1619801605081" />
+    <state width="1236" height="169" key="GridCell.Tab.0.bottom" timestamp="1619808277821">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state width="1488" height="207" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1536.824@1920.0.1536.824" timestamp="1619463597174" />
-    <state width="970" height="169" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1619797098700" />
-    <state width="970" height="169" key="GridCell.Tab.0.center" timestamp="1619797098699">
+    <state width="1236" height="169" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1619808277821" />
+    <state width="1236" height="169" key="GridCell.Tab.0.center" timestamp="1619808277820">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state width="1488" height="207" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1536.824@1920.0.1536.824" timestamp="1619463597173" />
-    <state width="970" height="169" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1619797098699" />
-    <state width="970" height="169" key="GridCell.Tab.0.left" timestamp="1619797098699">
+    <state width="1236" height="169" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1619808277820" />
+    <state width="1236" height="169" key="GridCell.Tab.0.left" timestamp="1619808277820">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state width="1488" height="207" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1536.824@1920.0.1536.824" timestamp="1619463597173" />
-    <state width="970" height="169" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1619797098699" />
-    <state width="970" height="169" key="GridCell.Tab.0.right" timestamp="1619797098699">
+    <state width="1236" height="169" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1619808277820" />
+    <state width="1236" height="169" key="GridCell.Tab.0.right" timestamp="1619808277820">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state width="1488" height="207" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1536.824@1920.0.1536.824" timestamp="1619463597173" />
-    <state width="970" height="169" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1619797098699" />
+    <state width="1236" height="169" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1619808277820" />
     <state x="121" y="55" key="MergeDialog" timestamp="1619789725769">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
@@ -315,11 +319,11 @@
       <screen x="1920" y="0" width="1536" height="824" />
     </state>
     <state x="2197" y="57" key="SettingsEditor/0.0.1280.680/1920.0.1536.824@1920.0.1536.824" timestamp="1619450078522" />
-    <state x="301" y="127" key="Vcs.Push.Dialog.v2" timestamp="1619796894617">
+    <state x="301" y="127" key="Vcs.Push.Dialog.v2" timestamp="1619797740724">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="2281" y="145" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1536.824@1920.0.1536.824" timestamp="1619462743765" />
-    <state x="301" y="127" key="Vcs.Push.Dialog.v2/0.0.1280.720@0.0.1280.720" timestamp="1619796894617" />
+    <state x="301" y="127" key="Vcs.Push.Dialog.v2/0.0.1280.720@0.0.1280.720" timestamp="1619797740724" />
     <state x="482" y="285" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1619796872557">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
