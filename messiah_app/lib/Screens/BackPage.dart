@@ -83,6 +83,12 @@ class _BackPageState extends State<BackPage> {
             margin: EdgeInsets.symmetric(horizontal: 10),
             width: MediaQuery.of(context).size.width * 0.6,
             child: GestureDetector(
+              onTap: (){
+               setState(() {
+                 Navigator.pop(context);
+
+               });
+              },
               child: MenuItem(
                 iconData: Icons.logout,
                 menuItem: "Logout",
