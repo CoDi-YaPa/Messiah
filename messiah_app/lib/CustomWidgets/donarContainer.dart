@@ -36,7 +36,7 @@ class DonarConatinerBlood extends StatelessWidget {
             children: [
               SizedBox(height: 5,),
               Text(name??'Example Name',style: TextStyle(
-                  fontSize: 30,
+                  fontSize: 28,
                   fontWeight: FontWeight.bold
               ),),
               Text(bloodGroup??'**',style: TextStyle(
