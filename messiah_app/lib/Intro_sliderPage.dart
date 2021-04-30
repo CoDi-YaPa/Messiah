@@ -22,14 +22,14 @@ class _IntroSliderPageState extends State<IntroSliderPage> {
           title: "...Blood...",
           description:
               "Now you have an awesome platform to look for blood donors around you. You can voluntarily become a donor and register yourself here!",
-          pathImage: "images/blood donation.jpg"),
+          pathImage: "images/blood.png"),
     );
     slides.add(
       new Slide(
           title: "...Plasma...",
           description:
               "We all know how important this plasma becomes when he/she is in the final stages of NCov-19 or any other chronic illnesses. So, similar to getting a blood donor, you can also look for a plasma donor here!",
-          pathImage: "images/plasma donation.png"),
+          pathImage: "images/plasma.png"),
     );
     slides.add(
       new Slide(
@@ -57,13 +57,12 @@ class _IntroSliderPageState extends State<IntroSliderPage> {
                 Container(
                   padding: EdgeInsets.all(20),
                   decoration: BoxDecoration(
-                    shape: BoxShape.circle,
-                    //color: Colors.white,
-                  ),
+                      //color: Colors.white,
+                      ),
                   child: Image.asset(
                     currentSlide.pathImage,
                     matchTextDirection: true,
-                    //fit: BoxFit.fill,
+                    height: 250.0,
                   ),
                 ),
                 Container(

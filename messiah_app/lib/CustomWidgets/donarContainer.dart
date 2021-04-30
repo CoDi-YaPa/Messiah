@@ -42,10 +42,10 @@ class DonarConatinerBlood extends StatelessWidget {
               ),
               Text(
                 name ?? 'Example Name',
-                style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
+                style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
               ),
               Text(bloodGroup ?? '**',
-                  style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold)),
+                  style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
               Text(location ?? 'Example Place'),
               Text(phoneNumber ?? '98XXXXXXXXXXXX'),
               Text(email ?? 'vuXXXXXXXXX@gmail.com'),
