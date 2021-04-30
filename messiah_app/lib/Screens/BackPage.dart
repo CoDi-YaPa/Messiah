@@ -46,12 +46,12 @@ class _BackPageState extends State<BackPage> {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.start,
               children: <Widget>[
-                // GestureDetector(
-                //   child: MenuItem(
-                //     iconData: Icons.home,
-                //     menuItem: "Home",
-                //   ),
-                // ),
+                GestureDetector(
+                  child: MenuItem(
+                    iconData: Icons.home,
+                    menuItem: "Home",
+                  ),
+                ),
                 GestureDetector(
                   onTap: () {
                     Navigator.push(
