@@ -22,21 +22,21 @@ class _IntroSliderPageState extends State<IntroSliderPage> {
           title: "...Blood...",
           description:
               "Now you have an awesome platform to look for blood donors around you. You can voluntarily become a donor and register yourself here!",
-          pathImage: "images/1.png"),
+          pathImage: "images/blood donation.jpg"),
     );
     slides.add(
       new Slide(
           title: "...Plasma...",
           description:
               "We all know how important this plasma becomes when he/she is in the final stages of NCov-19 or any other chronic illnesses. So, similar to getting a blood donor, you can also look for a plasma donor here!",
-          pathImage: "images/2.png"),
+          pathImage: "images/plasma donation.png"),
     );
     slides.add(
       new Slide(
           title: "...Oxygen...",
           description:
               "In the recent scenario of the Covid-19 pandemic, getting oxygen cylinders timely is another major concern. There are certain agents/suppliers about whom the common people are unaware of and they remain deprived of the oxygen cylinders. So here we are with yet another solution!",
-          pathImage: "images/3.png"),
+          pathImage: "images/oxygen.png"),
     );
   }
 
@@ -58,12 +58,12 @@ class _IntroSliderPageState extends State<IntroSliderPage> {
                   padding: EdgeInsets.all(20),
                   decoration: BoxDecoration(
                     shape: BoxShape.circle,
-                    color: Colors.white,
+                    //color: Colors.white,
                   ),
                   child: Image.asset(
                     currentSlide.pathImage,
                     matchTextDirection: true,
-                    height: 60.0,
+                    //fit: BoxFit.fill,
                   ),
                 ),
                 Container(
